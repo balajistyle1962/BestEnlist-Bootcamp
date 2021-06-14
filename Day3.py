@@ -40,7 +40,8 @@ e4.grid(row=11,column=1)
 Label(master,text="No. of Experience").grid(row=12)
 w = Spinbox(master, from_=0, to=20)
 w.grid(row=12,column=1)
-
+def callback():
+    print("Welcom to Employee details")
 b=Button(master,text="Submit").grid(row=13,column=1)
 
 
