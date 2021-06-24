@@ -1,0 +1,5 @@
+file1=open("30 days 30 hour operations.txt","a")
+n=input("Enter your name:")
+file1.write(n)
+print("Name has  appended successfully")
+file1.close()
